@@ -20,8 +20,8 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --open-ssl-legacy-provider build",
-    "test": "react-scripts test",
+    "build": "babel src -d lib",
+    "test": "jest",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
